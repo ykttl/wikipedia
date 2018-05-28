@@ -1,0 +1,45 @@
+ /* google fonts */
+ @import url('https://fonts.googleapis.com/css?family=Crimson+Text');
+
+
+ body { 
+ 	font-family: 'Crimson Text', serif;
+ 	font-size: 18px;
+ 	background: url(img/sativa.png);
+ }
+
+ 
+ p {
+ 	margin-bottom: 5px;
+ }
+
+h1 {
+	padding: 10px;
+}
+
+
+ li {
+ 	list-style: none;
+ 	padding: 14px;
+ 	margin: 8px;
+ 	border: solid 2px #00b3b3;
+ 	border-radius: 4px;
+ }
+
+ button {
+	background: #00b3b3;
+	border-radius: 4px;
+	color: white;
+   outline: none;
+ }
+
+ button:active {
+ 	background: yellow;
+ 	outline: none;
+ 	border: none;
+ }
+
+ input[type=text] {
+ 	margin-right: 8px;
+    width: 180px;
+ }
